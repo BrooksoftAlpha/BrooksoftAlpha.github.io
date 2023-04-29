@@ -4,6 +4,8 @@ __________
 BrookSoft Alpha is a trusted developed SEARCH ENGINE and tool to use for MANY things!
 Reasons YOU should wait for BROOKSOFT CHAT!
 
+main page: brooksoftalpha.github.io/index.html
+
 . Because it provides various tools
 . It is MORE WAY FAR better than Alpha
 . It provides kid-friendly educational tools
