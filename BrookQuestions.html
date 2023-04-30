@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<title>BrookQuestions</title>
+<html>
+<style>
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+</style>
+<body>
+<h1>Brooksoft Would you?</h1>
+<p>____________________________________________________________</p>
+<h1>Which Animal (1)*</h1>
+<label class="container">Dog
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Cat
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Exotic pets
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Birds
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>Which brand(1)*</h1>
+<label class="container">Samsung
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Apple
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">ASUS
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Realme
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<h1>What food(1)*</h1>
+<label class="container">MCDonald's
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Chinese
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">South Indian
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Italian
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>What do you prefer doing(1)*</h1>
+<label class="container">Reading
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Fiddling with gadgets
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Studying
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">PE work
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>Where would you go</h1>
+<label class="container">Singapore
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Dubai
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">The US
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">South Africa
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>What's your fav game(1)*</h1>
+<label class="container">Minecraft
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Roblox
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Among Us: IMPOSTOR EDITION
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Super Mario Bros
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>Sports you prefer(1)*</h1>
+<label class="container">Tennis
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Basketball
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Soccer
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Swimming 10 feet deep
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>What do you mostly do(1)*</h1>
+<label class="container">Read
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Study
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">TV
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Hangout or do PE work
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>How are you like?(1)*</h1>
+<label class="container">Quiet
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Dumb
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Strong
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Intelligent ( not necessarily getting A+ on your papers)
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>I am feeling(1)*</h1>
+<label class="container">The usual
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Blue
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">OVER-EXCITED
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Serious
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>Which religion are you(1)*</h1>
+<label class="container">Christian
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Muslim
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Jew
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Other than the 3
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">NOT religious
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>Which place you prefer?(1)*</h1>
+<label class="container">The city
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Suburbs or countryside
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">BEING HOMELESS
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">The wilderness
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+<h1>What occupation do you prefer?(1)</h1>
+<label class="container">Doctor
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Engineer
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Tradesperson
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Rather have another job!!
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+
+
+</body>
+</html>
