@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/BrooksoftAlpha/Gitdude-Repos-/main/Youzube.jpeg">
 <title>BrookEditors</title>
+body {
+  background-color: powderblue;
+}
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -119,6 +122,20 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 </script>
+
+<button class="open-button" onclick="openForm()">Want Better Experience?</button>
+
+            <div class="chat-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h1>GET CHAT!<h1>
+
+                <label for="msg"><b>Chat gives you better tools and saves your work! SO BETTER get CHAT !
+                - BrookSoft Team</b></label>
+
+
+
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+              </form>
 
 </body>
 </html>
