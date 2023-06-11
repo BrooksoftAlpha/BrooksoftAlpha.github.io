@@ -1,11 +1,13 @@
 Brooksoft
 __________
 
-BrookSoft Alpha is a trusted developed SEARCH ENGINE and tool to use for MANY things!
-Reasons YOU should wait for BROOKSOFT CHAT!
+About Us:
+Brooksoft is a digital device developement and software construction organization set out to solve most problems that customers have and make the customers feel at home. We develop Apps , devices, engines and much more and ALL our customers love it. Its free worldwide to use brooksoft platforms and many apps. Although you have to pay for some things like devices , apps and customer services. We are a 4.6/5 rated company.
 
 main page: brooksoftalpha.github.io/index.html
 
+REASONS TO BUY THE ALL-NEW BROOKSOFT CHAT
+_________________________________________
 . Because it provides various tools
 . It is MORE WAY FAR better than Alpha
 . It provides kid-friendly educational tools
