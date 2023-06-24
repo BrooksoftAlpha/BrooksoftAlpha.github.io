@@ -1,1 +1,363 @@
 
+
+
+<!DOCTYPE html>
+<html>
+<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/BrooksoftAlpha/Gitdude-Repos-/main/Youzube.jpeg">
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+  <a href="index.html"><i class="fa fa-search"></i></a> 
+  <a href="BrookPages.html"><i class="fa fa-pencil"></i></a> 
+  <a href="nightmode.html"><i class="fa fa-eye"></i></a>
+  <a href="BrookScholar.html"><i class="fa fa-graduation-cap"></i></a> 
+</div>
+
+</body>
+</html> 
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/brooksoft alpha.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/Aaa.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-2.jpeg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/--.jpeg" style="width:90%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-1.0.webp" style="width:60%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-.jpeg" style="width:100%">
+  </div>
+    
+   <div class="mySlides">
+    <div class="numbertext">BrookAds</div>
+    <img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/-wa.png" style="width:100%">
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/BrooksoftAlpha/Gitdude-Repos-/main/Youzube.jpeg">
+<html lang="en" dir="ltr">
+  <body bgcolor="#2b2c2c" >
+  
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFAE4;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: powderblue;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#"><b>Brook Search</b></a>
+  <a href="BrookSoft Chat.html">BrookSoft Chat</a>
+  <a href="maps.html">BrookGPS</a>
+  <a href="Brooksoft Check.html">BrookSoft Check</a>
+  <a href="BrookDocs.html">BrookEditors</a>
+  <a href="about.html">About Us</a>
+  <a href="BrookRewards.html">Brook Rewards</a>
+  <a href="BrookTools.html">BrookTools 657</a>
+  <a href="store.html">Brooksoft Store</a>
+  <a href="weather.html">Brook Weather Forecast</a>
+  <a href="news.html">Brook Streaming News</a>
+  
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+  </span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
+  
+  <title>Brooksoft Alpha </title>
+<center>
+<div class="Brooke" dir="ltr">
+<img src="https://raw.githubusercontent.com/BrooksoftAlpha/BrooksoftAlpha.github.io/main/abc.png" 
+     width="505" 
+     height="260" />
+    
+<div class="gcse-search"><script async src="https://cse.google.com/cse.js?cx=347a9699805a2489a">
+</script></div>
+  
+  
+    
+
+     
+    
+    </center>
+    
+    <style>
+      .gsc-control-cse {
+    border-color: #FFFFFF;
+    background-color: black;
+    width: 600px;
+}
+      
+      .gsc-input-box {
+    border-radius: 6px;
+}
+
+      
+     
+    </style>
+    
+
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-1cc1833b-52a7-4684-b31f-dc8dccf7b122"></div>
+
+</body>
+</html> 
+
